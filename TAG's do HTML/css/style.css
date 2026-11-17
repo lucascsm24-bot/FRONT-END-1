@@ -1,0 +1,168 @@
+body {
+    background-color: rgb(0, 0, 0);
+    /* SERVE PARA A COR DE FUNDO */
+    font-family: sans-serif
+}
+
+#principal {
+    border: 2px solid rgb(202, 202, 202);
+    width: 1200px;
+}
+
+header {
+    background-color: rgb(64, 62, 62);
+    color: rgb(201, 201, 201);
+    /* SERVE PARA COR DO TEXTO*/
+    font-size: 28px;
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
+    height: 150px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+
+}
+
+header h1 {
+    align-self: flex-start;
+}
+
+h1 {
+    align-self: flex-start;
+}
+
+p {
+    font-size: medium;
+    font-weight: 200px;
+}
+
+h1 {
+    color: rgb(189, 189, 189);
+    /* SERVE PARA COR DO TEXTO*/
+    text-align: left;
+    letter-spacing: 5px;
+    /* SERVE PARA O ESPAÇAMENTO DAS LETRAS */
+    margin: 0px;
+    align-self: self-start;
+}
+
+nav {
+    color: rgb(179, 179, 179);
+    /* SERVE PARA COR DO TEXTO */
+    background-color: rgb(71, 71, 71);
+    /* SERVE PARA A COR DE FUNDO */
+    font-size: 12px;
+    font-weight: 300px;
+    line-height: 50x;
+    width: 1200px;
+    /* MARGEM DA CAIXA*/
+    height: 60px;
+    /* ALTURA DA CAIXA*/
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style-type:none; /*RETIRA O BULLET*/
+    width: 1150px;
+    display:flex;
+    font-size: large;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+ul li a:hover {
+    color: white;
+    text-decoration:none;
+    background-color: rgb(0, 0, 0);
+    border-radius: 550px;
+}
+
+#padrasto{
+    display:flex;
+}
+
+
+section {
+    color: aliceblue;
+    background-color: rgb(104, 97, 97);
+    font-size: 10px;
+    font-weight: 100;
+    line-height: 30px;
+    width: 810px;
+    margin-right: 30px;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    
+
+}
+
+article {
+    background-color: rgb(0, 0, 0);
+    color: rgb(190, 190, 190);
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 150;
+    text-align: center;
+    line-height: 30px;
+    width: 700px;
+    height: 120px;
+    margin-bottom: 10px;
+}
+
+.outra-cor {
+    color: rgb(194, 194, 194);
+    /* SERVE PARA COR DO TEXTO*/
+}
+
+aside {
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    width: 370px;
+    height: 500px;
+
+    p {
+        font-size:30px;
+        /* SERVE PARA AUMENTAR O TAMANHO DOS TEXTOS */
+        font-weight: 300;
+        /* MUDA O ESPAÇAMENTO DAS LETRAS */
+        text-align: start;
+        /* SERVE PARA ALINHAR O TEXTO */
+        letter-spacing: 10px;
+        line-height: 25px;
+        width: 400px
+    }
+
+}
+
+footer {
+    background-color: rgb(116, 115, 115);
+    height: 80px;
+}
+
+/*PÁGINA TESTE DE FLEXBOX*/
+
+#paizao {
+    width: 600px;
+    height: 600px;
+    background-color: rgb(12, 0, 0);
+    display: flex;
+    /* FILHOS FICAM FLEXIVEIS PARA ORGANIZAÇÃO */
+    flex-direction: row;
+    /* EIXO EM QUE ESTOU PONDO OS MEUS FILHOS */
+    justify-content: space-evenly;
+    /* ALINHA O EIXO PRINCPIAL */
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.filhos {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+}
+
